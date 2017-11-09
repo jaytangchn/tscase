@@ -63,3 +63,4 @@ class dog extends animals{
  let laifu:animals;  //声明为抽象类型
  laifu = new dog();
 // laifu.breath()   则调用抽象类中不存在的方法会报错
+//==========================高级技巧================================================
