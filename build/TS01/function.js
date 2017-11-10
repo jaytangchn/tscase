@@ -24,3 +24,18 @@ function add4(base, increa, opr = "plus") {
 }
 console.log(add3(1, 2, undefined));
 console.log(add3(1, 2, "declan"));
+/**
+ * 剩余参数
+ */
+function add5(a, ...restname) {
+    console.log("剩余参数:", a, restname);
+}
+add5(1, 2, 3, 4, 5);
+/**
+ * this 和箭头函数
+ *
+ * 看不懂
+ */
+/**
+ * 重载 略
+ */ 
